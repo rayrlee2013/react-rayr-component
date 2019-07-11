@@ -1,9 +1,8 @@
 {
   "name": "react-rayr-component",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "react-rayr-component",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.js",
   "scripts": {
     "bundle": "node node_modules/webpack/bin/webpack.js -p --colors --display-error-details --config webpack.dist.config.js",
     "dev": "webpack-dev-server --progress --colors",
@@ -16,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bsidelinger912/react-tooltip-lite.git"
+    "url": "git+https://github.com/rayrlee2013/react-rayr-component.git"
   },
   "keywords": [
     "React"
@@ -24,9 +23,8 @@
   "author": "Rayr Lee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bsidelinger912/react-tooltip-lite/issues"
+    "url": "https://github.com/rayrlee2013/react-rayr-component/issues"
   },
-  "homepage": "https://github.com/bsidelinger912/react-tooltip-lite#readme",
   "dependencies": {
     "prop-types": "^15.7.2"
   },
