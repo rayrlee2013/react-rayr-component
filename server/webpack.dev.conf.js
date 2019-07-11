@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 export default {
     mode: 'development',
-    entry: ['webpack-hot-middleware/client?reload=true', './example/index.js', './scss/index.scss'],
+    entry: ['webpack-hot-middleware/client?reload=true', './example/index.js'],
     output: {
         path: path.resolve(__dirname, '../example/dev'),
         filename: 'js/[name].js',

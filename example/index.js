@@ -1,6 +1,7 @@
 /**
  * Created by Rayr Lee on 2019/7/11.
  */
+import './index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
