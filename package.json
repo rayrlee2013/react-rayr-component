@@ -1,6 +1,6 @@
 {
   "name": "react-rayr-component",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "react-rayr-component",
   "main": "dist/index.js",
   "scripts": {
@@ -28,12 +28,12 @@
     "url": "https://github.com/rayrlee2013/react-rayr-component/issues"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "classnames": "^2.2.6"
   },
   "peerDependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "classnames": "^2.2.6"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
