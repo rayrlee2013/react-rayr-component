@@ -1,6 +1,6 @@
 {
   "name": "react-rayr-component",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "react-rayr-component",
   "main": "src/index.js",
   "scripts": {
