@@ -11,7 +11,9 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Button>我是按钮</Button>
+                <Button type={'danger'} inverse={true} onClick={() => {
+                    alert('ok')
+                }}>我是按钮</Button>
             </div>
         );
     }
