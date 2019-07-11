@@ -1,8 +1,8 @@
 {
   "name": "react-rayr-component",
-  "version": "0.0.23",
+  "version": "0.0.25",
   "description": "react-rayr-component",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "bundle": "node node_modules/webpack/bin/webpack.js -p --colors --display-error-details --config webpack.dist.config.js",
     "dev": "webpack-dev-server --progress --colors",
@@ -11,7 +11,9 @@
   },
   "files": [
     "dist",
-    "example"
+    "example",
+    "src",
+    "scss"
   ],
   "repository": {
     "type": "git",
