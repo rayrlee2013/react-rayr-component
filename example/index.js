@@ -1,13 +1,12 @@
+/**
+ * Created by Rayr Lee on 2019/7/11.
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import {Button} from '../src';
+import {Button} from 'react-rayr-component';
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>
